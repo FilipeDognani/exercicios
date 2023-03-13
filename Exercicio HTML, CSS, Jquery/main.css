@@ -1,0 +1,28 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#list-container {
+	width: 50%;
+	margin: 0 auto;
+    text-align: center;
+
+}
+
+#task-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.task {
+	cursor: pointer;
+}
+
+.task.completed {
+	text-decoration: line-through;
+	color: gray;
+}
